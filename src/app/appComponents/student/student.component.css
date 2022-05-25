@@ -1,0 +1,59 @@
+.logout{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+.user-info{
+    margin-top: 5rem;
+    text-align: center;
+}
+.user-info h3{
+    font-weight: bold;
+}
+.user-info p{
+    font-size: 1.2rem;
+    color: #777;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 3rem 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.box1 .a, .box2 .a{
+    display: inline-block;
+    padding: 1rem;
+    background-color: transparent;
+    box-shadow: 0 .2rem .5rem 0 rgba(0,0,0,16%);
+    border-radius: .5rem;
+    padding: 1rem;
+    opacity: 0.9;
+}
+.reminder-box{
+    margin-top: 3rem;
+}
+.reminder-box .rem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    margin: 3rem 0;
+}
+.reminder-box .box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.text-spanish p{
+    text-align: center;
+    font-size: 1.3rem;
+    color: #777;
+    margin-top: 7rem;
+}

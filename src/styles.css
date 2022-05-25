@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --purple: #814096;
+    --pink: #f67c92;
+    --gradient: linear-gradient(90deg, var(--purple), var(--pink));
+}
+::selection{
+    background-color: var(--pink);
+    color: #fff;
+}
+html{
+    font-size: 62.5%;
+}
+
+@media (max-width:770px){
+    .middle-dashboard-left, .middle-dashboard-right{
+        flex-basis: 100% !important;
+    }
+    .middle-dashboard-left{
+        margin-bottom: 2rem;
+    }
+    .dashboard-content-left{
+        flex-basis: 100% !important;
+    }
+    .dashboard-content-right{
+        flex-basis: 100% !important;
+    }
+    .dashboard-content-text{
+        margin-left: 5rem !important;
+    }
+    .dashboard-content-right img{
+        margin-left: 5rem !important;
+    }
+    
+}
+
+@media (max-width:668px){
+    .card-one, .card-two, .card-three{
+        margin-bottom: 1rem !important;
+    }
+    .dashboard-top span a{
+        display: none;
+    }
+    .dashboard-content{
+        background: none !important;
+    }
+    .dashboard-content-right img{
+        width: 200% !important;
+    }
+    app-student{
+        display: none;
+    }
+    .dashboard-top i{
+        margin-left: 2rem;
+    }
+}

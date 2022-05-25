@@ -1,0 +1,16 @@
+<a (click)="toggleSidenav()"><img src="../../../assets/menu.png" class="menuBtn"></a>
+<nav [hidden]="isShow">
+    <ul>
+        <li><a routerLink="/dashboard" routerLinkActive="active"><i class="fa fa-address-card"></i> Dashboard</a></li>
+        <li><a routerLink="/classes" routerLinkActive="active"><i class="fa fa-folder-o"></i> Classes</a></li>
+        <li><a routerLink="/resources" routerLinkActive="active"><i class="fa fa-globe"></i> Resources</a></li>
+        <li><a routerLink="/learning-plan" routerLinkActive="active"><i class="fa fa-graduation-cap"></i> Learning Plan</a></li>
+        <li><a routerLink="/chat" routerLinkActive="active"><i class="fa fa-comments-o"></i> Chat</a></li>
+        <li><a routerLink="/settings" routerLinkActive="active"><i class="fa fa-gear"></i> Settings</a></li>
+    </ul>
+    <div class="pro">
+        <img src="../../../assets/e-mail.png" class="email-img">
+        <p>Upgrade to Pro for <br>more resources</p>
+        <button class="pro-btn">Upgrade</button>
+    </div>
+</nav>
